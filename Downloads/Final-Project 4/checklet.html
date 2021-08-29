@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        #but{
+         
+                   border-radius: 20px;
+          
+         
+            
+          }
+
+         
+    </style>
+    <body>
+
+        <div style="width:800px ;height: 400px;;margin-top: 9%;margin-left: 20%;"> 
+            <div style="width: 700px;height: 60px;background-color: #cecece;display: flex;">
+              
+                 <h3 style="margin-left: 20px;">1.SIGIN IN</h3>
+                 <h4 style="margin-left: 20px;">sima.com</h4>
+
+                 <button style="height: 30px;width: 150px;margin-top: 15px;margin-left: 240px;color: orangered;border: none;" ><B>CHANGE</B></button>
+            </div>
+
+
+            <div style="width: 701px;height: 700px;background-color:none ;margin-top: 30px; border: 1px solid #cecece;">
+                <div style="width: 700px;height: 70px;background-color:#cecece;display: flex;">
+                  
+                  <h2 style="margin-left: 20px;">1.delivery info</h2>
+                 
+                </div>
+                    <div style="width:350px;height: 60px; ;display: flex;margin-top: 10px;margin-left: 10px;">
+                        <div  id="aa" style="width: 175px;height: 60px;border: 1px solid #cecece ;display: flex;justify-content: center;align-items: center;font-size: 13px;" onclick="a()">DELIVERY ADDRESS</div>
+                        <div id="bb" style="width: 175px;height: 60px;background-color:beige;margin-left: 2px;background-color: white;border: 1px solid #cecece ;display:flex;justify-content: center;align-items: center;font-size: 13px;"onclick="b()">EXPRESS STOR PICK UP</div>
+                    </div>
+
+
+                        <div style="border-top: 2px solid #f5f5f0 ;height: 600px;position: absolute;width: 700px;" id="a1">
+                            <h3 style="margin-left: 20px;">Add New Address</h3>
+                    <div style="margin-top: 20px;" >
+                        <div style="display: flex;margin-left: 20px;">
+                            <input placeholder="First name" style="border: 1px solid  #e0e0d1;height: 36px;margin-right: 20px;width: 220px;">
+                            <input placeholder="Second name" style="border: 1px solid  #e0e0d1;height: 36px;width: 220px;">
+                        </div>
+                        <div style="display: flex;margin-left: 20x;margin-top: 10px;margin-left: 20px;">
+                            <input placeholder="-91" style="border: 1px solid  #e0e0d1;height: 36px;margin-right: 20px;width: 40px;background-color:  #f5f5f0;">
+                            <input placeholder="Number" style="border: 1px solid   #e0e0d1;height: 36px;margin-right: 20px;width: 400px;">
+                        </div>
+                        <input placeholder="Pin Code" style="border: 1px solid #e0e0d1;height: 36px;margin-right: 20px;width: 460px;margin-left: 20px;margin-top: 20px;">
+                        <div style="display: flex;margin-left: 20px;margin-top: 20px;">
+                            <input placeholder="city" style="border: 1px solid  #e0e0d1;height: 36px;margin-right: 20px;width: 220px;background-color:  #f5f5f0;">
+                            <input placeholder="state" style="border: 1px solid  #e0e0d1;height: 36px;margin-right: 20px;width: 220px; background-color:  #f5f5f0;">
+                        </div>
+                        <div style="display:flex;flex-direction: column;width: 500px;margin-left: 20px;margin-top: 20px;">
+                        <input placeholder="Address 1" style="border: 1px solid  #e0e0d1;height: 36px;margin-right: 20px;width: 460px;margin-bottom: 20px;">
+                        <input placeholder="Address 2" style="border: 1px solid  #e0e0d1;height: 36px;margin-right: 20px;width: 460px;visibility: ;">
+                    </div>
+                    </div>
+                    <button style="height: 40px;width: 100px;background-color:green; margin-top: 100px;margin-left: 600px;visibility: ; "id="but"></button>
+                    </div>
+                   
+                    <div style="height: 500px;visibility: hidden;" id="a2">
+                        <div style="border-bottom: 1px solid rgb(138, 138, 138);border-top: 1px solid rgb(138, 138, 138) ;width: 600px;margin-left: 20px;">
+                        <h4>PICK UP</h4>
+                        
+                        <div style="display: flex;"><input type="checkbox" style="margin-right: 20px;" ><label style="margin-right: 20px;">self</label><input style="margin-right: 20px;" type="checkbox"><label>someone else</label></div>
+                    
+                    </div>
+                        <div style="margin-top: 20px;" >
+                            <div style="display: flex;margin-left: 20px;">
+                                <input style="border: 1px solid #e7e7e7;height: 36px;margin-right: 20px;width: 220px;">
+                                <input style="border: 1px solid #e7e7e7;height: 36px;width: 220px;">
+                            </div>
+                            <div style="display: flex;margin-left: 20x;margin-top: 10px;margin-left: 20px;">
+                                <input style="border: 1px solid #e7e7e7;height: 36px;margin-right: 20px;width: 40px;">
+                                <input style="border: 1px solid #e7e7e7;height: 36px;margin-right: 20px;width: 400px;">
+                            </div>
+                            <input style="border: 1px solid #e7e7e7;height: 36px;margin-right: 20px;width: 460px;margin-left: 20px;margin-top: 20px;">
+                            <div style="display: flex;margin-left: 20px;margin-top: 20px;">
+                                <input style="border: 1px solid #e7e7e7;height: 36px;margin-right: 20px;width: 220px;">
+                                <input style="border: 1px solid #e7e7e7;height: 36px;margin-right: 20px;width: 220px;">
+                            </div>
+                            <div style="display:flex;flex-direction: column;width: 500px;margin-left: 20px;margin-top: 20px;">
+                            <input style="border: 1px solid #e7e7e7;height: 36px;margin-right: 20px;width: 460px;margin-bottom: 20px;">
+                            <input style="border: 1px solid #e7e7e7;height: 36px;margin-right: 20px;width: 460px;visibility: ;">
+                        </div>
+                        </div>
+                        </div>
+
+                    </div>
+            
+        </div>
+        </div>
+
+
+
+        <div style="height: 500px;width: 260px;;position: absolute;margin-left: 70%;top:150px;background-color: #f8f8f8;"  >
+            <h3 style="font-size: 20px;margin-left: 20px;" > ORDER SUMMARY</h3>
+            <div style="display: flex;">
+                <input type="text"placeholder="Enter promo code" style="margin-left: 20PX;border: 1px solid gray ;"><div style="width: 40px;height: 20px;border: 1px solid red;background-color: #ffb3b3;font-size: 12PX;align-items: center;">APPLY</div>
+            </div>
+            <div style="width: 230PX;margin-left: 5PX;margin-top: 10px;border-bottom:1px solid gray;border-top:1px solid gray;">
+            <div style="display: flex;justify-content: space-between;color: #333;  font-weight:400;"><p style="color: #333;  font-weight:400;"><B>total</B></p><p>rs300</p></div>
+            <div style="display: flex;justify-content: space-between;color: #333;"><p><B>Dilivery charges</B></p><p>FREE</p></div>
+            <div style="display: flex;justify-content: space-between;color: #333;"><p><B>Gift packing</B> </p><p>FREE</p></div>
+            <div style="display: flex;justify-content: space-between;color: #333;"><p><B>offer discount</B></p><p>$99</p></div>
+            <div style="display: flex;justify-content: space-between;color: #333;"><p><B>coupan discount</B></p><p>NA</p></div>
+                
+            </div>
+            <div style="border-bottom: 1px solid gray;width: 230px;margin-left: 5px;">
+                <div style="display: flex;justify-content: space-between;color: #333;"><p><b>Payable amount</b></p><p>$99</p></div>
+                <div style="display: flex;justify-content: space-between;color: #333;"><p>You have saved</p><p style="color: greenyellow;">$99</p></div>
+
+            </div>
+            
+        </div>
+
+    </body>
+    <script>
+        function a(){
+
+            var aa=document.getElementById("aa");
+            var bb=document.getElementById("bb");
+
+
+            var a1=document.getElementById("a1");
+            var a2=document.getElementById("a2");
+           
+           
+
+            
+            a1.style.visibility="visible"
+
+            
+            a2.style.visibility="hidden"
+
+            
+
+
+
+        }
+        function b(){
+
+            var a1=document.getElementById("a1");
+            var a2=document.getElementById("a2");
+            
+
+            
+            a2.style.visibility="visible"
+            a1.style.visibility="hidden"
+            
+
+
+}
+    </script>
+</html>
